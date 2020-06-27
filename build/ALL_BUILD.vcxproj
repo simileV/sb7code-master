@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B94AA6D5-0AA4-39B9-8471-393F200A74CD}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\aleks\source\repos\sb7code-master\include;C:\Users\aleks\source\repos\sb7code-master\extern\glfw-3.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\aleks\source\repos\sb7code-master\include;C:\Users\aleks\source\repos\sb7code-master\extern\glfw-3.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\aleks\source\repos\sb7code-master\include;C:\Users\aleks\source\repos\sb7code-master\extern\glfw-3.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\aleks\source\repos\sb7code-master\include;C:\Users\aleks\source\repos\sb7code-master\extern\glfw-3.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\aleks\source\repos\sb7code-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/aleks/source/repos/sb7code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aleks/source/repos/sb7code-master -BC:/Users/aleks/source/repos/sb7code-master/build --check-stamp-file C:/Users/aleks/source/repos/sb7code-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeCCompiler.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeCXXCompiler.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeRCCompiler.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeSystem.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\Users\aleks\source\repos\sb7code-master\build\templates\vs2013.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/aleks/source/repos/sb7code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aleks/source/repos/sb7code-master -BC:/Users/aleks/source/repos/sb7code-master/build --check-stamp-file C:/Users/aleks/source/repos/sb7code-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeCCompiler.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeCXXCompiler.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeRCCompiler.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeSystem.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\Users\aleks\source\repos\sb7code-master\build\templates\vs2013.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/aleks/source/repos/sb7code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aleks/source/repos/sb7code-master -BC:/Users/aleks/source/repos/sb7code-master/build --check-stamp-file C:/Users/aleks/source/repos/sb7code-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeCCompiler.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeCXXCompiler.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeRCCompiler.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeSystem.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\Users\aleks\source\repos\sb7code-master\build\templates\vs2013.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/aleks/source/repos/sb7code-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aleks/source/repos/sb7code-master -BC:/Users/aleks/source/repos/sb7code-master/build --check-stamp-file C:/Users/aleks/source/repos/sb7code-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeCCompiler.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeCXXCompiler.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeRCCompiler.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\3.18.0-rc2\CMakeSystem.cmake;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\Users\aleks\source\repos\sb7code-master\build\templates\vs2013.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\ZERO_CHECK.vcxproj">
+      <Project>{AE760128-741F-366F-9671-F4D95A0A98FE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\alienrain.vcxproj">
+      <Project>{F74409BC-692C-3E3F-B373-CACFFA95F896}</Project>
+      <Name>alienrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\basicfbo.vcxproj">
+      <Project>{72106D1C-1D1C-3C65-98AE-3F5E719B5DE6}</Project>
+      <Name>basicfbo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\bindlesstex.vcxproj">
+      <Project>{780AE6FA-14AC-341D-ABA6-D715E9BFDB11}</Project>
+      <Name>bindlesstex</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\blendmatrix.vcxproj">
+      <Project>{EF48CD44-9C6C-3468-9D7B-531F0326A9DD}</Project>
+      <Name>blendmatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\blinnphong.vcxproj">
+      <Project>{9170F823-7F70-38E6-B113-75EDD74EB88A}</Project>
+      <Name>blinnphong</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\bumpmapping.vcxproj">
+      <Project>{598DB885-E3E3-36E5-85A6-90DD40AD3FF8}</Project>
+      <Name>bumpmapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\clipdistance.vcxproj">
+      <Project>{AFFB6E37-E5C2-3081-BC2D-42F9B9FEF5F5}</Project>
+      <Name>clipdistance</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\compressrgtc.vcxproj">
+      <Project>{F237CFAC-254F-3389-A621-409D3E744CC6}</Project>
+      <Name>compressrgtc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\csflocking.vcxproj">
+      <Project>{B2879942-9800-37EE-93E1-0389B03FB49C}</Project>
+      <Name>csflocking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\cubemapenv.vcxproj">
+      <Project>{2A590BF4-7ACD-3CA3-B13F-ACA1FCC0C61A}</Project>
+      <Name>cubemapenv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\cubicbezier.vcxproj">
+      <Project>{2F1D3A6E-4B14-34E4-B698-25C297963F3A}</Project>
+      <Name>cubicbezier</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\cullindirect.vcxproj">
+      <Project>{07209A1A-0FC6-337A-9119-07E8EA16FA65}</Project>
+      <Name>cullindirect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\deferredshading.vcxproj">
+      <Project>{872AACDE-FB9B-396C-B76D-F5668CEF7F6F}</Project>
+      <Name>deferredshading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\depthclamp.vcxproj">
+      <Project>{3B6A1822-E9F5-3DA3-A6B7-92D10102608C}</Project>
+      <Name>depthclamp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\dflandscape.vcxproj">
+      <Project>{B179CF78-DB8E-3B58-B308-5FD5DD7D32B4}</Project>
+      <Name>dflandscape</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\dispmap.vcxproj">
+      <Project>{4FA96900-D53A-3CDE-9125-B3046F2E6ED9}</Project>
+      <Name>dispmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\dof.vcxproj">
+      <Project>{0B21FED5-FDE6-3DBF-AF63-7B91AB098C88}</Project>
+      <Name>dof</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\envmapsphere.vcxproj">
+      <Project>{7E5C7847-AAB0-3C4C-B6D9-0BEA4B653E69}</Project>
+      <Name>envmapsphere</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\equirectangular.vcxproj">
+      <Project>{7F45D2E1-F3B6-31A2-ADC8-BB4F99920ED2}</Project>
+      <Name>equirectangular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\fontdemo.vcxproj">
+      <Project>{D434050A-8EF7-3C72-9E09-256DB48084D9}</Project>
+      <Name>fontdemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\fragcolorfrompos.vcxproj">
+      <Project>{2B3920E8-F3F0-3C31-93FD-3F484CA51C87}</Project>
+      <Name>fragcolorfrompos</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\fragmentlist.vcxproj">
+      <Project>{851A257E-6B4B-3F2E-8795-0D3BEF2628E1}</Project>
+      <Name>fragmentlist</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\grass.vcxproj">
+      <Project>{C15BC5B8-C2F7-3092-9F1F-7407A5B3C49F}</Project>
+      <Name>grass</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\gsculling.vcxproj">
+      <Project>{4DD04CBC-6CA1-31B5-8085-3FEF809B2D86}</Project>
+      <Name>gsculling</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\gslayered.vcxproj">
+      <Project>{941D1407-374F-3B6F-BB68-74F49FFD9C54}</Project>
+      <Name>gslayered</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\gsquads.vcxproj">
+      <Project>{9069B0F7-5137-330F-9367-3D176D5240A5}</Project>
+      <Name>gsquads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\gstessellate.vcxproj">
+      <Project>{922D74E5-67A3-3C45-8014-932505A0B86E}</Project>
+      <Name>gstessellate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\hdrbloom.vcxproj">
+      <Project>{C6FA9757-2A2D-3FEC-AF56-28F09672285A}</Project>
+      <Name>hdrbloom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\hdrexposure.vcxproj">
+      <Project>{8B11CC20-D196-325D-ACFD-1628E3D89BDF}</Project>
+      <Name>hdrexposure</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\hdrtonemap.vcxproj">
+      <Project>{07A7144F-02B0-353A-A2C8-00F73EDDE127}</Project>
+      <Name>hdrtonemap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\hqfilter.vcxproj">
+      <Project>{C891DC74-7120-319D-909C-E62CCC2BFCA7}</Project>
+      <Name>hqfilter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\indexedcube.vcxproj">
+      <Project>{E1DD093F-C973-3BFE-B16F-C9EAACFB7A14}</Project>
+      <Name>indexedcube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\indirectmaterial.vcxproj">
+      <Project>{017ADC29-26B5-3F41-9385-6A760BDF6635}</Project>
+      <Name>indirectmaterial</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\instancedattribs.vcxproj">
+      <Project>{8F966DA0-A255-3749-A4CA-16A8E9FA1570}</Project>
+      <Name>instancedattribs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\julia.vcxproj">
+      <Project>{25685908-7306-334E-969F-C64B7D938BFD}</Project>
+      <Name>julia</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\ktxview.vcxproj">
+      <Project>{764A0D34-56A7-3229-BD11-7A20499B0449}</Project>
+      <Name>ktxview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\linesmooth.vcxproj">
+      <Project>{2FF39259-79E9-342F-A6C5-6938ABA5BAB6}</Project>
+      <Name>linesmooth</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\mirrorclampedge.vcxproj">
+      <Project>{16D45D33-AFD7-32E0-905F-43239C5EF612}</Project>
+      <Name>mirrorclampedge</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\movingtri.vcxproj">
+      <Project>{6DCEC6DE-7CBD-3F76-B388-07CA21BC2E8A}</Project>
+      <Name>movingtri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\msaanative.vcxproj">
+      <Project>{25A4A42F-5B73-3DC1-BC0C-A89273BC71A5}</Project>
+      <Name>msaanative</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\multidrawindirect.vcxproj">
+      <Project>{FA326A7B-F22F-3C2A-B1A9-3E173BD07639}</Project>
+      <Name>multidrawindirect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\multiscissor.vcxproj">
+      <Project>{050159FF-AB88-3724-A34D-7423C15A9D06}</Project>
+      <Name>multiscissor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\multiviewport.vcxproj">
+      <Project>{8E9965C7-2103-3315-AA10-5B0B3A606BC9}</Project>
+      <Name>multiviewport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\noperspective.vcxproj">
+      <Project>{FECFF1C2-65C7-3B71-8032-40C87B991BBD}</Project>
+      <Name>noperspective</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\normalviewer.vcxproj">
+      <Project>{17856A1F-B2A7-3F3B-AD05-3F7569FAA6A3}</Project>
+      <Name>normalviewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\objectexploder.vcxproj">
+      <Project>{047203CE-D408-3F5D-AC88-AD1B77A8014A}</Project>
+      <Name>objectexploder</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\ompparticles.vcxproj">
+      <Project>{205A95A5-9FD1-3070-BF15-91CCBE2BCC7F}</Project>
+      <Name>ompparticles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\packetbuffer.vcxproj">
+      <Project>{6FF4F502-7755-3750-ABD4-D3E69F487700}</Project>
+      <Name>packetbuffer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\perpixelgloss.vcxproj">
+      <Project>{DBC61B30-D84F-3AB3-B3D1-65DC65793C6E}</Project>
+      <Name>perpixelgloss</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\phonglighting.vcxproj">
+      <Project>{AA99249A-54B0-3576-98ED-54BF8CE97F5F}</Project>
+      <Name>phonglighting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\pmbfractal.vcxproj">
+      <Project>{FE610B40-CB6F-3FE5-8BC8-D2FB48E4C26B}</Project>
+      <Name>pmbfractal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\pmbstreaming.vcxproj">
+      <Project>{F7AB84FD-51A4-3FD2-A94E-B30F71EE20A3}</Project>
+      <Name>pmbstreaming</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\polygonsmooth.vcxproj">
+      <Project>{68E9FBED-9351-3540-A9C4-C4D7E9A67CA3}</Project>
+      <Name>polygonsmooth</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\prefixsum.vcxproj">
+      <Project>{1CCE6104-C302-3B5F-834F-7879E10B7633}</Project>
+      <Name>prefixsum</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\prefixsum2d.vcxproj">
+      <Project>{01E980EA-39AA-38E8-A662-0B977BD480A3}</Project>
+      <Name>prefixsum2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\programinfo.vcxproj">
+      <Project>{0233E3B6-9014-3380-856D-865A1743A4EF}</Project>
+      <Name>programinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\raytracer.vcxproj">
+      <Project>{E8F7091C-C1A4-313B-B712-B969FC6FD625}</Project>
+      <Name>raytracer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\rimlight.vcxproj">
+      <Project>{15C6C003-C029-3F3A-AD6C-D36F6639B3E7}</Project>
+      <Name>rimlight</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\sampleshading.vcxproj">
+      <Project>{2533EB23-86A8-3A66-BCCF-C9770F43D373}</Project>
+      <Name>sampleshading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\sb7.vcxproj">
+      <Project>{4E5943D3-ACE5-3E05-8367-C3CB0869F4B4}</Project>
+      <Name>sb7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\sdfdemo.vcxproj">
+      <Project>{2B4177EB-5640-32BC-82B9-A1710B7C3795}</Project>
+      <Name>sdfdemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\shadowmapping.vcxproj">
+      <Project>{78CB9B4B-F5AE-3DFA-9924-FEFC398CFBAD}</Project>
+      <Name>shadowmapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\shapedpoints.vcxproj">
+      <Project>{584377F5-B267-3FEA-A6CB-6660861CC1AB}</Project>
+      <Name>shapedpoints</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\simpleclear.vcxproj">
+      <Project>{1AE35D53-4D85-3E10-A64D-CB2A2A2516E1}</Project>
+      <Name>simpleclear</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\simpletexcoords.vcxproj">
+      <Project>{4DFA168E-7E13-37A1-AC29-4DCA56CBB7C3}</Project>
+      <Name>simpletexcoords</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\simpletexture.vcxproj">
+      <Project>{5B8A9666-3C79-3B5E-8808-5B8B8E8C02DD}</Project>
+      <Name>simpletexture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\singlepoint.vcxproj">
+      <Project>{000AE610-AAD5-3889-BB0C-C92AD2F09DD6}</Project>
+      <Name>singlepoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\singletri.vcxproj">
+      <Project>{3FE94942-EBA9-335E-A804-1FD502E74AA9}</Project>
+      <Name>singletri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\sparsetexture.vcxproj">
+      <Project>{36E7073B-E779-3B99-A280-BD1AF06AB18B}</Project>
+      <Name>sparsetexture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\spinnycube.vcxproj">
+      <Project>{D04DE8F8-3961-3589-A1B3-9352ABE07BF9}</Project>
+      <Name>spinnycube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\springmass.vcxproj">
+      <Project>{5107535E-423B-334E-A8BA-AC65BAE43ABA}</Project>
+      <Name>springmass</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\ssao.vcxproj">
+      <Project>{A8C638BD-C136-324F-B6D7-EC5C284A60E8}</Project>
+      <Name>ssao</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\starfield.vcxproj">
+      <Project>{006C985D-FE31-3D1D-94AF-51526BE5E32A}</Project>
+      <Name>starfield</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\stereo.vcxproj">
+      <Project>{66EDE6D4-9FF0-3B2A-9D76-061C05DDB657}</Project>
+      <Name>stereo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\subroutines.vcxproj">
+      <Project>{DF449CDE-D9EB-32A8-B6E6-BBC93F2D1CBF}</Project>
+      <Name>subroutines</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\tessellatedcube.vcxproj">
+      <Project>{B9807E1A-C262-3B9E-9C0F-FF5559ED2294}</Project>
+      <Name>tessellatedcube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\tessellatedgstri.vcxproj">
+      <Project>{69402655-133B-36A8-B830-3A475FAC1C04}</Project>
+      <Name>tessellatedgstri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\tessellatedtri.vcxproj">
+      <Project>{4CB295A5-8F34-3C28-9183-6D50AC4434E1}</Project>
+      <Name>tessellatedtri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\tessmodes.vcxproj">
+      <Project>{74545111-EFF3-327A-9FE6-198A28147823}</Project>
+      <Name>tessmodes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\tesssubdivmodes.vcxproj">
+      <Project>{C8ABAADF-BA3D-3E07-AFAD-D58006C1B5C2}</Project>
+      <Name>tesssubdivmodes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\toonshading.vcxproj">
+      <Project>{6EB7A659-6154-38DF-8801-D9EE30711B84}</Project>
+      <Name>toonshading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\tunnel.vcxproj">
+      <Project>{480BA8EC-F367-3FFA-8973-93E580425A47}</Project>
+      <Name>tunnel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\aleks\source\repos\sb7code-master\build\wrapmodes.vcxproj">
+      <Project>{C2E488E2-7D10-3932-B755-7DA125C5768C}</Project>
+      <Name>wrapmodes</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

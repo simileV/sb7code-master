@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\6ad0e89740731b2e5c77118185e8eb17\debug.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\aleks\source\repos\sb7code-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\aleks\source\repos\sb7code-master\build\CMakeFiles\debug" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8D220BB1-C3B1-3963-B2C4-6F4AD386D592}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
