@@ -239,4 +239,22 @@ void phonglighting_app::load_shaders()
     //uniforms[1].specular_power = glGetUniformLocation(per_vertex_program, "specular_power");
 }
 
+
 DECLARE_MAIN(phonglighting_app)
+
+//int main(int argc, char* argv[])
+//{
+//    sb7::application* app = 0;
+//    {                                                   
+//        a* app = new a;
+//        app->run(app);
+//        delete app;
+//        return 0;
+//    }
+//}
+
+//int main(int argc, char* argv[])
+//{
+//    //DECLARE_MAIN(phonglighting_app)
+//
+//}
